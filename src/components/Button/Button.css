@@ -1,0 +1,45 @@
+button {
+  outline: none;
+  border: none;
+  padding: 12px 32px;
+  border-radius: 8px;
+  font-family: 'InterRegular';
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.btn-outlined {
+
+  background-color: white;
+  border: 1px solid hsl(0, 0%, 41%);
+  color: hsl(0, 0%, 41%);
+}
+
+.btn-outlined:hover {
+  border: 1px solid hsl(0, 0%, 8%);
+  color: hsl(0, 0%, 8%);
+}
+
+.btn-contained {
+
+  background-color: hsl(0, 0%, 8%);
+  color: white;
+
+}
+
+.btn-contained:hover {
+  border: 1px solid hsl(0, 0%, 8%);
+  color: hsl(0, 0%, 8%);
+  background-color: white;
+}
+
+.btn-text {
+
+  color: hsl(0, 0%, 41%);
+  background-color: transparent;
+  border: 1px solid transparent;
+}
+
+.btn-text:hover {
+  color: hsl(0, 0%, 8%);
+}

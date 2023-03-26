@@ -1,0 +1,25 @@
+@font-face {
+  font-family: "InterRegular";
+  src: url("./assets/fonts/Inter-Regular.ttf");
+}
+
+@font-face {
+  font-family: "InterBold";
+  src: url("./assets/fonts/Inter-Bold.ttf");
+}
+
+@font-face {
+  font-family: "InterExtraBold";
+  src: url("./assets/fonts/Inter-ExtraBold.ttf");
+}
+
+* {
+  font-family: "InterRegular";
+  /* color: hsl(0, 0%, 41%); */
+}
+
+/* html,
+body,
+#root {
+  height: 100%;
+} */
